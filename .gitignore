@@ -1,6 +1,9 @@
+# Ignore node_modules folder
 node_modules
-#env
+
+# Ignore .env file (may contain sensitive data)
 .env
 
+# Ignore OS generated files (Mac and Windows)
 .DS_Store
 Thumbs.db
